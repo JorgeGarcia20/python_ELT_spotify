@@ -1,0 +1,21 @@
+curl --request GET \
+  --url https://api.spotify.com/v1/artists/36QJpDe2go2KgaRleHCDTp \
+  --header 'Authorization: Bearer <here goes your token>' > test2.txt
+  
+
+curl --request GET \
+  --url https://api.spotify.com/v1/artists/0TnOYISbd1XYRBk9myaseg \
+  --header 'Authorization: Bearer <here goes your token>'
+
+  
+curl --request GET \
+  --url https://api.spotify.com/v1/me/top/artists \
+  --header 'Authorization: Bearer <here goes your token>' > test2.txt
+
+curl --request GET \
+  --url https://api.spotify.com/v1/me/top/tracks \
+  --header 'Authorization: Bearer <here goes your token>' > test2.txt
+  
+curl --request GET \
+  --url https://api.spotify.com/v1/me/player/recently-played?before=1704401001695 \
+  --header 'Authorization: Bearer <here goes your token>' > test2.txt
