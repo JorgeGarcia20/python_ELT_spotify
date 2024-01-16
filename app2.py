@@ -78,13 +78,13 @@ if __name__ == '__main__':
     my_token = get_token()
     print(my_token)
     
-    result = search_for_artist(my_token, "led zeppeline")
+    # result = search_for_artist(my_token, "led zeppeline")
     # print(result.keys())
     # print(result["name"])
-    print(result["id"])
+    # print(result["id"])
     # print(result["genres"])
 
-    print(get_top_artists(my_token))
+    # print(get_top_artists(my_token))
     # top_artists_result = get_top_artists(my_token)
 
     # date = datetime.today() - timedelta(days=1)
